@@ -24,6 +24,14 @@ main {
     transform: translate(-50%, -50%);
 }
 
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
+
 a {
     display: block;
     text-align: right;
@@ -35,7 +43,7 @@ a {
     margin: 10px;
     box-shadow: 1px 1px 10px black;
     transition-duration: 0.1s;
-    box-sizing: border-box;
+    box-sizing: ;
 }
 
 .bola:hover {
